@@ -1,0 +1,107 @@
+#welcomePage {
+	background-color: #f0f2f5;
+	.hall-box {
+		margin-top: 24px;
+
+		height: 100%;
+		.hall-status {
+			height: 165px;
+			background-color: #ffffff;
+			border-bottom: 1px solid #eeeeee;
+			padding: 0 24px;
+			.hall-tipBox {
+				height: 165px;
+				display: flex;
+				align-items: center;
+				.hall-tip {
+					width: 6px;
+					height: 20px;
+					background: #3a3f51;
+				}
+				.hall-tipWord {
+					margin-left: 15px;
+				}
+			}
+			.toStart-num {
+				font-size: 30px;
+				color: #3f99ff;
+				font-weight: 700;
+			}
+			.toStart-num2 {
+				font-size: 14px;
+				color: #3f99ff;
+				font-weight: 700;
+			}
+			.toStart-word {
+				font-size: 18px;
+				color: #3f99ff;
+				font-weight: 700;
+			}
+			.going-num {
+				font-size: 30px;
+				color: #66a100;
+				font-weight: 700;
+			}
+			.going-num2 {
+				font-size: 14px;
+				color: #66a100;
+				font-weight: 700;
+			}
+			.going-word {
+				font-size: 18px;
+				color: #66a100;
+				font-weight: 700;
+			}
+			.finished-num {
+				font-size: 30px;
+				color: #363636;
+				font-weight: 700;
+			}
+			.finished-num2 {
+				font-size: 14px;
+				color: #363636;
+				font-weight: 700;
+			}
+			.finished-word {
+				font-size: 18px;
+				color: #363636;
+				font-weight: 700;
+			}
+		}
+		.hall-list {
+			padding: 24px;
+			background-color: #ffffff;
+			.hall-list-tipBox {
+				display: flex;
+				align-items: center;
+				margin-bottom: 24px;
+				.hall-list-tip {
+					width: 6px;
+					height: 20px;
+					background: #3a3f51;
+				}
+				.hall-list-tipWord {
+					margin-left: 15px;
+				}
+			}
+			.list-item {
+				display: flex;
+				border: none;
+				margin-bottom: 15px;
+				box-shadow: 0px 0px 9px 0px #f0f0f0;
+				.list-item-button {
+					background: #1890ff;
+					color: #ffff;
+					border-radius: 3px;
+				}
+			}
+		}
+	}
+	.ant-list-item {
+		& > div {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+	}
+}
